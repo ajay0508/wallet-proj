@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wallet List</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td>Particular</td>
+            <td>Amount</td>
+        </tr>
+        <% for (data of walletData) { %>
+            <tr>
+                <td><%= data.name %></td>
+                <td><%= data.particular %></td>
+                <td><%= data.amount %></td>
+            </tr>
+        <%}%>
+    </table>
+</body>
+
+</html>

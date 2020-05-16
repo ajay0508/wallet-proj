@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wallet</title>
+</head>
+
+<body>
+    <div style="border: solid #d5d5d5 1px; width:50%; margin: 10px auto;">
+        <form name="f1" id="form1" method="post" action='<%= APIURL %>/api/wallet/add'>
+            <input type="text" name="name" placeholder="Name" /> </br></br>
+            <input type="text" name="particular" placeholder="Particular" /> </br></br>
+            <input type="text" name="amount" placeholder="Amount" /> </br></br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
